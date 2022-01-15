@@ -1,0 +1,21 @@
+﻿@using System.Collections.Generic;
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- iOS - needs to reside in the "Resources" directory and have build action of "BundleResource" -->
+    <!-- Droid - needs to reside in "Assets" directory and have build action of "AndroidAsset" -->
+    <link rel="stylesheet" href="primer.css">
+    <script type="text/javascript">
+        function updatetextonwebview() {
+            document.getElementById("textElement").innerHTML = "sheeda updated";
+        }
+    </script>
+</head>
+<body>
+    <p id="textElement"></p>
+
+</body>
+</html>
