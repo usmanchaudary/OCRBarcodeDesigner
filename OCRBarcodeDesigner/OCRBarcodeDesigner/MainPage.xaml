@@ -19,6 +19,8 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+        <Button x:Name="OCR_Test" Clicked="OCR_Test_Clicked">
+            </Button>
     </StackLayout>
 
 </ContentPage>
